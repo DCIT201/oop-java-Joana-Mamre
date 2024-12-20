@@ -1,29 +1,29 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Ev761u1o)
 # OOP-JAVA(DCIT 201 - Graded Assignment)
-# Advanced Vehicle Rental Management System
+# Advanced Com.rental.vehicle.Vehicle Rental Management System
 
 ## Assignment Objective
-Design a comprehensive Vehicle Rental Management System that demonstrates **ALL** Object-Oriented Programming (OOP) Principles:
+Design a comprehensive Com.rental.vehicle.Vehicle Rental Management System that demonstrates **ALL** Object-Oriented Programming (OOP) Principles:
 - Encapsulation
 - Inheritance
 - Polymorphism
 - Abstraction
 - Composition
 
-## Problem Domain: Vehicle Rental Management System
+## Problem Domain: Com.rental.vehicle.Vehicle Rental Management System
 
 ### Core Requirements
 
 #### 1. Abstraction Principle
-Create an abstract base class `Vehicle` with the following abstract methods:
+Create an abstract base class `Com.rental.vehicle.Vehicle` with the following abstract methods:
 - `calculateRentalCost(int days)`
 - `isAvailableForRental()`
 
 #### 2. Inheritance Hierarchy
-Implement concrete vehicle classes that inherit from `Vehicle`:
-- `Car` (extends Vehicle)
-- `Motorcycle` (extends Vehicle)
-- `Truck` (extends Vehicle)
+Implement concrete vehicle classes that inherit from `Com.rental.vehicle.Vehicle`:
+- `Car` (extends Com.rental.vehicle.Vehicle)
+- `Motorcycle` (extends Com.rental.vehicle.Vehicle)
+- `Truck` (extends Com.rental.vehicle.Vehicle)
 
 Each vehicle type must have unique rental characteristics:
 - Different base rental rates
@@ -53,9 +53,9 @@ Design supporting classes:
 
 ### Detailed Class Requirements
 
-#### Vehicle (Abstract Class)
+#### Com.rental.vehicle.Vehicle (Abstract Class)
 ```java
-public abstract class Vehicle {
+public abstract class Com.rental.vehicle.Vehicle {
     // Private encapsulated fields
     private String vehicleId;
     private String model;
@@ -68,7 +68,7 @@ public abstract class Vehicle {
 }
 ```
 
-#### Vehicle Specific Classes
+#### Com.rental.vehicle.Vehicle Specific Classes
 Each vehicle class must implement unique:
 - Rental cost calculations
 - Availability checks
